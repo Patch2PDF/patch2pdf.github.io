@@ -20,7 +20,7 @@
 
 title: Patch2PDF
 description: >- # this means to ignore newlines until "baseurl:"
-  Centralised event lighting preparation
+  Centralised event lighting preparation.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -33,6 +33,7 @@ platforms:
 remote_theme: vaibhavvikas/jekyll-theme-minimalistic
 plugins:
   - jekyll-remote-theme
+  - jekyll-gfm-admonitions
 
 logo: /assets/logo.png
 
